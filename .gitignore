@@ -1,0 +1,7 @@
+.gradle
+gradle
+build.gradle
+.idea
+applications/config-server/build
+applications/customer/build
+applications/order/build

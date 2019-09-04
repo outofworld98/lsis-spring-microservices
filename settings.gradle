@@ -1,0 +1,6 @@
+rootProject.name = 'Commerce'
+include "applications:customer"
+include "applications:order"
+include 'applications:config-server'
+findProject(':applications:config-server')?.name = 'config-server'
+
